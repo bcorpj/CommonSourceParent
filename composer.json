@@ -1,0 +1,24 @@
+{
+    "name": "r.bakytzhanov/cs-parent",
+    "description": "A child Laravel application designed to seamlessly integrate with a parent Laravel application, providing real-time data synchronization and updates to ensure consistent and up-to-date information across multiple platforms. With a focus on ease-of-use and robust functionality, this child application is an essential component for businesses and organizations looking to streamline their data management processes.",
+    "type": "library",
+    "license": "MIT License",
+    "autoload": {
+        "psr-4": {
+            "CommonSource\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Рахат Бакытжанов",
+            "email": "107846206+bcorpj@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.52",
+        "illuminate/database": "^9.52",
+        "illuminate/http": "^9.52"
+    }
+}
